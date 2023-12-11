@@ -40,12 +40,22 @@ import UseCallback from './useCallback/UseCallBack';
 import RoutesCompo from './RoutesAndDynamic.js/RoutesCompo';
 import A from './PropDrilling/A';
 import UseEffectCompo from './UseEffectCompo/UseEffectCompo';
-import ApiPractice from './API/ApiPractice';
+// import ApiPractice from './API/ApiPractice';
+// import parent from './practice/Parent';
+// import Parent from './practice/Parent';
+// import APICompo5 from './APIPractice/APICompo5';
+// import useReducerHook from './useReducerHook'
+import UseReducerHook from './UseReducerHook';
+import ReactApp from './ReactApp';
 const App =()=>{
   return(
 <div>
+< ReactApp/>
+{/* <UseReducerHook/>  */}
+  {/* <APICompo5/> */}
+  {/* <Parent/> */}
   {/* <DisplayData/>  */}
-<ApiPractice/>
+{/* <ApiPractice/> */}
   {/* <RouteFiles/> */}
 {/* <D/> */}
 {/* <HocCounter/>
@@ -54,8 +64,8 @@ const App =()=>{
 {/* <DataStore>
   <Sample/>
 </DataStore>
-
 <Demo/> */}
+{/* <parent/> */}
 {/* <Countercompo/> */}
 {/* <SecondCompo/> */}
 {/* <Navbar/> */}
@@ -73,7 +83,7 @@ const App =()=>{
 
     {/* <Comments/>
     <CommentsList/> */}
-    <Routecompo/>
+    {/* <Routecompo/> */}
     {/* <CounterFunc/> */}
     {/* <hr></hr>
     <display/> */}
